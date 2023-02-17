@@ -26,7 +26,7 @@ class AddAppointment extends _$AddAppointment {
   Appointment build(Appointment? appointment) =>
       appointment ??
       Appointment(
-        name: DateTime.now().toIso8601String(),
+        name: '',
         toWhom: '',
         isDone: false,
         description: '',
